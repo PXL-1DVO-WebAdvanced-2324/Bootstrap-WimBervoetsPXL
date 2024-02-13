@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
+        <a class="navbar-brand" href="#">Web Advanced</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-container" aria-controls="navbar-container" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-container">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Web Essentials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Scripting</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Web Advanced <span class="badge badge-pill badge-light">!</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Backend <span class="badge badge-pill badge-light">!</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="d-flex justify-content-center justify-content-lg-end align-items-center border border-dark rounded-bottom">
+        <h1 class="text-secondary text-uppercase m-5 text-center">Full Stack<br>Developer<br>Roadmap</h1>
+    </header>
+    <main>
+        <div id="appdev-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner bg-dark p-lg-5">
+                <div class="carousel-item active">
+                    <div class="container d-flex flex-column align-items-center">
+                        <h1 class="text-light pt-5">Semester 1</h1>
+                        <p class="text-light pb-5">September - January</p>
+                        <div class="container px-lg-5 d-flex flex-column justify-content-center flex-lg-row justify-content-lg-around">
+                            <div class="card p-3 m-3">
+                                <img class="card-img-top w-100" src="assets/html.png" alt="html" id="img-html">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">HTML</h5>
+                                    <p class="card-text">HyperText Markup Language</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card p-3 m-3">
+                                <img class="card-img-top w-100" src="assets/css.png" alt="css" id="img-css">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">CSS</h5>
+                                    <p class="card-text">Cascading Style Sheets</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card p-3 m-3">
+                                <img class="card-img-top w-100" src="assets/js.png" alt="js" id="img-js">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">JS</h5>
+                                    <p class="card-text">Javascript</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container d-flex flex-column align-items-center">
+                        <h1 class="text-light pt-5">Semester 2</h1>
+                        <p class="text-light pb-5">February - June</p>
+                        <div class="container px-lg-5 d-flex flex-column justify-content-center flex-lg-row justify-content-lg-around">
+                            <div class="card p-3 m-3">
+                                <img class="card-img-top w-100" src="assets/node.png" alt="node" id="img-node">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Node.js</h5>
+                                    <p class="card-text">JS runtime built on Chrome's V8 JS engine</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card p-3 m-3">
+                                <img class="card-img-top w-100" src="assets/sass.png" alt="sass" id="img-sass">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Sass</h5>
+                                    <p class="card-text">Syntactically Awesome Style Sheets</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0</div>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="card p-3 m-3">
+                                <img class="card-img-top w-100" src="assets/vue.png" alt="vue" id="img-vue">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Vue.js</h5>
+                                    <p class="card-text">The Progressive JavaScript Framework</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">0</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#appdev-carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#appdev-carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </main>
+    <footer class="bg-light p-4 border border-dark">
+        <p class="m-0 text-center text-dark">Copyright @ PXL GRDVO - <a class="text-dark" href="mailto:pxl@grdvo.be">Contact</a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

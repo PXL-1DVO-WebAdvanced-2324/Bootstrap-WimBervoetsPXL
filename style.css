@@ -1,0 +1,18 @@
+header {
+    height: 20rem;
+    background-image: url('assets/header.png');
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+   background-color: rgba(248,249,250,0.5)
+}
+
+
+.card, .card-text {
+    flex: 1;
+}
+
+
