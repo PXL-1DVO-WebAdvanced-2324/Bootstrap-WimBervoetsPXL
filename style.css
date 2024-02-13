@@ -1,0 +1,14 @@
+header {
+    height: 20rem;
+
+}
+
+header h1 {
+   
+}
+
+.card, .card-text {
+    flex: 1;
+}
+
+
