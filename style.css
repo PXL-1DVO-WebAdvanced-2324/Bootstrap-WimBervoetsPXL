@@ -10,7 +10,7 @@ header h1 {
    background-color: rgba(248,249,250,0.5)
 }
 
-.card, .card-text {
+.flex-even {
     flex: 1;
 }
 

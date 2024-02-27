@@ -1,81 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body class="container-lg">
+</head>
+
+<body class="container-lg">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
-      <a class="navbar-brand" href="#">Web Advanced</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#togglerDemo"
-        aria-controls="togglerDemo"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="collapse navbar-collapse justify-content-end"
-        id="togglerDemo"
-      >
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Web Essentials</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Scripting</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Web Advanced
-              <span class="badge rounded-pill bg-light text-dark">!</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Web Advanced
-                <span class="badge rounded-pill bg-light text-dark">!</span>
-              </a>
-          </li>
-        </ul>
-      </div>
+        <a class="navbar-brand" href="#">Web Advanced</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#togglerDemo"
+            aria-controls="togglerDemo" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="togglerDemo">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Web Essentials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Scripting</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Web Advanced
+                        <span class="badge rounded-pill bg-light text-dark">!</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Web Advanced
+                        <span class="badge rounded-pill bg-light text-dark">!</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <header
-      class="d-flex justify-content-center justify-content-lg-end align-items-center border border-dark rounded-bottom"
-    >
-      <h1 class="text-secondary text-uppercase me-5 text-center">
-        Full Stack<br />Developer<br />Roadmap
-      </h1>
+        class="d-flex justify-content-center justify-content-lg-end align-items-center border border-dark rounded-bottom">
+        <h1 class="text-secondary text-uppercase me-5 text-center">
+            Full Stack<br />Developer<br />Roadmap
+        </h1>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <div id="carousel-semester" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner bg-dark text-light">
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+                <div class="carousel-item active">
+                    <div class="d-flex flex-column align-items-center">
+                        <h1 class="mt-5">Semester 1</h1>
+                        <p>Sep - Jan</p>
+                        <div class="m-5 d-flex flex-column flex-lg-row justify-content-center justify-content-lg-center w-75">
+                            <div class="card flex-even p-3 m-3">
+                                <img src="assets/html.png" class="card-img-top w-100 logo" alt="html" />
+                                <div class="card-body">
+                                    <h5 class="card-title">HTML</h5>
+                                    <p class="card-text flex-even">Hypertext Markup Language</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                                            aria-valuemin="0" aria-valuemax="100">0</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card flex-even p-3 m-3">
+                                <img src="assets/css.png" class="card-img-top w-100 logo" alt="css" />
+                                <div class="card-body">
+                                    <h5 class="card-title">CSS</h5>
+                                    <p class="card-text flex-even">Cascading Style Sheets</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                                            aria-valuemin="0" aria-valuemax="100">0</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card flex-even p-3 m-3">
+                                <img src="assets/js.png" class="card-img-top w-100 logo" alt="js" />
+                                <div class="card-body">
+                                    <h5 class="card-title">JS</h5>
+                                    <p class="card-text flex-even">JavaScript</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                                            aria-valuemin="0" aria-valuemax="100">0</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center">
+                        <h1 class="mt-5">Semester 2</h1>
+                        <p>Feb - Jun</p>
+                        <div class="m-5 d-flex flex-column flex-lg-row justify-content-center justify-content-lg-center w-75">
+                            <div class="card flex-even p-3 m-3">
+                                <img src="assets/node.png" class="card-img-top w-100 logo" alt="node" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Node.js</h5>
+                                    <p class="card-text flex-even">JS runtime built on Chome's V8 JS Engine</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                                            aria-valuemin="0" aria-valuemax="100">0</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card flex-even p-3 m-3">
+                                <img src="assets/sass.png" class="card-img-top w-100 logo" alt="sass" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Sass</h5>
+                                    <p class="card-text flex-even">Syntatically Awesome Style Sheets</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                                            aria-valuemin="0" aria-valuemax="100">0</div>
+                                    </div>
+                                </div>
+                            </div>                            
+                            <div class="card flex-even p-3 m-3">
+                                <img src="assets/vue.png" class="card-img-top w-100 logo" alt="vue" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Vue.js</h5>
+                                    <p class="card-text flex-even">The Progressive JavaScript Framework</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0"
+                                            aria-valuemin="0" aria-valuemax="100">0</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-semester"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-semester"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </main>
+    <footer class="bg-light p-4 border border-dark">
+        <p class="m-0 text-center text-dark">Copyright @ PXL GRDVO - <a class="text-dark" href="mailto:pxl@grdvo.be">Contact</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
     <!-- import app.js script -->
-  </body>
+    <script src="app.js"></script>
+</body>
+
 </html>
